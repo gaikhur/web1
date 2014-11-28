@@ -6,7 +6,7 @@ while (*p)
    ++p; 
   return (p - s); 
 }
-
+/* this is list  */
 char *my_strcpy(char *t, char *s) 
 { 
  char *p = t; 
