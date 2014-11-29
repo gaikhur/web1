@@ -29,7 +29,10 @@ char *my_strcpy(char *t, char *s)
  return p; 
 }
 
-
+test (int a )
+{
+  /* This is test */
+}
 
 
 int main(void) 
