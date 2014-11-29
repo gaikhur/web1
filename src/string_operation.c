@@ -7,6 +7,12 @@ while (*p)
   return (p - s); 
 }
 /* this is list  */
+
+char *my_strcat(char *s)
+{
+ /* this is comment line */
+}
+
 char *my_strcpy(char *t, char *s) 
 { 
  char *p = t; 
