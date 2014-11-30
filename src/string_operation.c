@@ -13,6 +13,15 @@ char *my_strcat(char *s)
  /* this is comment line */
 }
 
+size_t w_strlen(const wchar_t *s) 
+{
+  const wchar_t *p = s; 
+  while (*p)  
+   ++p;  
+   return (p - s); 
+}
+
+
 char *my_strcpy(char *t, char *s) 
 { 
  char *p = t; 
@@ -20,7 +29,10 @@ char *my_strcpy(char *t, char *s)
  return p; 
 }
 
-
+test (int a )
+{
+  /* This is test */
+}
 
 
 int main(void) 
